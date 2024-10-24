@@ -8,8 +8,8 @@ export const RootRoute = createRootRoute({
 
 function Root() {
     return (
-        <BaseLayout>
-            <Outlet />
-        </BaseLayout>
+        // <BaseLayout>
+        <Outlet />
+        // </BaseLayout>
     );
 }
